@@ -13,7 +13,7 @@
 //O resultado e igual ao contrario do resultado AND (a primeira variavel OR a segunda variavel)
 //Imprime a alternativa c e o resultado
 
-//Imprime a alternativa d TYPEOF o resultado
+//Imprime o tipo da alternativa d TYPEOF o resultado
 
 
 
@@ -31,45 +31,46 @@
 
 //Exercicios de escrita de codigo 1
 //a)
-const idade = prompt ("Qual a sua idade?")
+const idade = Number (prompt ("Qual a sua idade?"))
 //b)
-const idadeAmigo = prompt ("Qual a idade do seu melhor amigo?")
+const idadeAmigo = Number(prompt ("Qual a idade do seu melhor amigo?"))
 //c)
-console.log("Sua idade e maior ou menor do que seu melhor amigo?",true)
+let resultado  = idade > idadeAmigo
+console.log("Sua idade e maior ou menor do que seu melhor amigo?",resultado)
 //d)
 console.log("Qual a diferenca de idade?",false)
 
 
 //Exercicios de escrita de codigo 2
 //a)
-const numero = prompt("Insira um numero par")
+const numero =Number(prompt("Insira um numero par"))
 console.log(numero)
 //b)
 console.log(numero%2)
 //c)
-//Os numeros sempre serao exatos
+//Os numeros sempre serao zero
 //d)
-//O resultado sera um numero com virgula
+//O resto da divisao e diferente de zero
 
 
 
 //Exercicios de esrita de codigo 3
-const idadeAnos = prompt("Quantos anos voce tem?")
+const idadeAnos =Number (prompt("Quantos anos voce tem?"))
 console.log(idadeAnos)
 //a)
-console.log(idadeAnos/12)
+console.log(idadeAnos*12)
 //b)
-console.log(idadeAnos/365)
+console.log(idadeAnos*365)
 //c)
-console.log(idadeAnos/8760)
+console.log(idadeAnos*24)
 
 //Exercicios de escrita de codigo 4
-const prinumero = prompt("Seu primeiro numero:")
-const segunNumero = prompt("Seu segundo numero:")
+const prinumero =Number (prompt("Seu primeiro numero:"))
+const segunNumero = Number (prompt("Seu segundo numero:"))
 console.log(prinumero,segunNumero)
 
 console.log(prinumero>segunNumero,true)
-console.log(prinumero=segunNumero,false)
+console.log(prinumero===segunNumero,false)
 console.log(prinumero/segunNumero,true)
 console.log(segunNumero/prinumero,false)
 
