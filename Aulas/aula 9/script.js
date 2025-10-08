@@ -44,6 +44,6 @@ const frase5 = frase4.replaceAll("gotham, metropolis")
 console.log(frase5)
 
 //ARRAYS
-const listaDeCompras = ["abacate, banana, tomate"]
+const listaDeCompras = ["abacate", "banana", "tomate"]
 console.log(listaDeCompras[0])
 

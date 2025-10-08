@@ -25,3 +25,7 @@ console.log(suaFrase.length)
 
 //EXERCICIOS DE ARRAYS
 //1.
+const racasDeCachorro = ["labrador retriever", "pastor alemao", "bulldog frances", "golden retriever", "shih tzu"]
+const pergunta = prompt("Escolha um numero de 0 a 4:")
+console.log(pergunta)
+console.log(racasDeCachorro[pergunta])
