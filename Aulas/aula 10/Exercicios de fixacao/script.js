@@ -66,5 +66,3 @@ listaDeTarefas.splice(indiTarefa, indiTarefa)
 //f)
 console.log(listaDeTarefas)
 
-
-
