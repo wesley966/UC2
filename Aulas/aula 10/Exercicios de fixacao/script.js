@@ -42,8 +42,7 @@ console.log(comida[3])
 console.log(comida[4])
 //c)
 const novaComida = prompt("Qual sua comida preferida?")
-let indice = 1
-comida[indice] = novaComida
+comida[1]=novaComida
 console.log(comida)
 
 //5.
@@ -60,7 +59,7 @@ listaDeTarefas.push(tarefa3)
 //c)
 console.log(listaDeTarefas)
 //d)
-const indiTarefa = prompt("Qual o indice das tarefas realizadas?")
+const indiTarefa = Number(prompt("Qual o indice das tarefas realizadas?"))
 //e)
 listaDeTarefas.splice(indiTarefa, indiTarefa)
 //f)
