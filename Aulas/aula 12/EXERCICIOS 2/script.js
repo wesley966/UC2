@@ -32,3 +32,65 @@ if(numero %2===0){
 //b)
 //"O preço da fruta, maça, é R$2.25, preço"
 //c)
+//O item pera estaria junto ao default
+
+//3.MENSAGEM SECRETA
+//a)
+//Esta perguntando um numero para o usuario e o transformando em Number
+//b)
+//"Voce passou no texte"
+//"Essa mensagem é secreta"
+//c)
+//if(numero>0){
+//    console.log("Esse numero passou no texte")
+//}
+ //   else{
+ //       console.log("Essa mensagem é secreta")
+  //  }
+
+
+//4.
+//a)
+const idade = Number(prompt("Qual sua idade?"))
+const Didade = 18
+//b)
+idade.toLocaleString(String, Number)
+//c)
+if(idade>=Didade){
+    console.log("Voce pode dirigir")
+}
+else{
+    console.log("Voce nao pode dirigir")
+}
+
+
+//5.
+const pergunta = prmpt("Qual seu turno: M, V ou N")
+if(pergunta==='M'){
+    console.log("Bom Dia!")
+}
+else if(pergunta==='V'){
+    console.log("Boa Tarde!")
+}
+else if(pergunta==='N'){
+    console.log("Boa Noite!")
+}
+else{
+    console.log("Nao Identificado!")
+}
+
+//6.
+switch(pergunta){
+    case 'M':
+        console.log("Bom Dia!")
+        break
+        case 'V':
+            console.log("Boa Tarde!")
+            break
+            case 'N':
+                console.log("Boa Noite!")
+                break
+                default:
+                    console.log("Nao Ideantificado!")
+break
+}
