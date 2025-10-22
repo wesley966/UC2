@@ -65,7 +65,7 @@ else{
 
 
 //5.
-const pergunta = prmpt("Qual seu turno: M, V ou N")
+const pergunta = prompt("Qual seu turno: M, V ou N")
 if(pergunta==='M'){
     console.log("Bom Dia!")
 }
