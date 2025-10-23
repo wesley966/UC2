@@ -6,23 +6,24 @@ const velocidadeOuro = 60
 const velocidadePedra = 50
 const velocidadeMadeira = 40
 
-//2.Criando uma nova variavel 
+//2.Criando uma 6 novas variaveis
 const blocoMinerar = "Obsidiana"
+const blocoMinerar2 = "Minerio de Diamante"
 
 //3.Criando uma estrutura condicional com if/else if/else para determinar com equipamento das 5 primeiras variaveis pode quebrar o bloco da variavel "blocoMinerar"
-if(blocoMinerar>=velocidadeDiamante){
-    console.log("O minério foi destruido!")
+if(blocoMinerar||blocoMinerar2){
+    console.log(`Use picareta de diamante:Velocidade ${velocidadeDiamante}`)
 }
-else if(velocidadeFerro){
+else if(){
 console.log("O minério nao foi destruido!")
 }
-else if(velocidadeOuro){
+else if(result3){
     console.log("O minério nao foi destruido!")
 }
-else if(velocidadePedra){
+else if(result4){
     console.log("O minério nao foi destruido!")
 }
-else if(velocidadeMadeira){
+else if(result5){
     console.log("O bloco nao foi destruido!")
 }
 else{
