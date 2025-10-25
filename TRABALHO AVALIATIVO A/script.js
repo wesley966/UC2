@@ -9,25 +9,17 @@ const velocidadeMadeira = 40
 //2.Criando uma 6 novas variaveis
 const blocoMinerar = "Obsidiana"
 const blocoMinerar2 = "Minerio de Diamante"
+const blocoMinerar3 = "Pedra"
 
 //3.Criando uma estrutura condicional com if/else if/else para determinar com equipamento das 5 primeiras variaveis pode quebrar o bloco da variavel "blocoMinerar"
 if(blocoMinerar||blocoMinerar2){
     console.log(`Use picareta de diamante:Velocidade ${velocidadeDiamante}`)
 }
-else if(){
-console.log("O minério nao foi destruido!")
-}
-else if(result3){
-    console.log("O minério nao foi destruido!")
-}
-else if(result4){
-    console.log("O minério nao foi destruido!")
-}
-else if(result5){
-    console.log("O bloco nao foi destruido!")
+else if(blocoMinerar3){
+console.log(`Picareta de pedra ou ferro é o ideal: velocidade ${velocidadeFerro, velocidadePedra}` )
 }
 else{
-    console.log("Sem efeito!")
+    console.log("Qualquer ferramenta funciona, mas a de Madeira é a mais simples.")
 }
 
 
@@ -70,7 +62,3 @@ console.log("Picareta de Diamante criada!Hora de buscar obsidiana!")
 else{
 console.log("Faltam recursos ou as condicoes de crafting nao sao atendidas!")
 }
-
-
-
-

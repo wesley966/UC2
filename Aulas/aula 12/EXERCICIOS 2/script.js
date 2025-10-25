@@ -30,23 +30,18 @@ if(numero %2===0){
 //a)
 //Para ver qual o preco da fruta escolhida pelo usuario
 //b)
-//"O preço da fruta, maça, é R$2.25, preço"
+//"O preço da fruta, maça, é R$5,00, preço"
 //c)
-//O item pera estaria junto ao default
+//Apareceria o default por causa do erro iria para o default: A mensagem seria O preço da fruta pera é R$5 
 
 //3.MENSAGEM SECRETA
 //a)
 //Esta perguntando um numero para o usuario e o transformando em Number
 //b)
 //"Voce passou no texte"
-//"Essa mensagem é secreta"
+//Nao iria aparecer nada ERRO
 //c)
-//if(numero>0){
-//    console.log("Esse numero passou no texte")
-//}
- //   else{
- //       console.log("Essa mensagem é secreta")
-  //  }
+//A variavel foi imprimida dentro do if, se ele nao for atendido a variavel nao existe. Para mudar isso seria colocar a variavel fora com "MODO GLOBAL"
 
 
 //4.
@@ -75,7 +70,7 @@ else if(pergunta==='V'){
 else if(pergunta==='N'){
     console.log("Boa Noite!")
 }
-else{
+else{//NAO NECESSARIO!
     console.log("Nao Identificado!")
 }
 
@@ -90,7 +85,7 @@ switch(pergunta){
             case 'N':
                 console.log("Boa Noite!")
                 break
-                default:
+                default://NAO NECESSARIO!
                     console.log("Nao Ideantificado!")
 break
 }
