@@ -5,8 +5,8 @@ function bemTurma(){
 
 bemTurma()
 
-//2.
-function numeros(numero1, numero2){
+/2.
+functi/on numeros(numero1, numero2){
     const soma = numero1+numero2
     console.log(soma)
 }
@@ -33,7 +33,7 @@ function num(num){
     console.log(`A soma é ${num}`)
 }
 num(1)
-num(2)*/
+num(2)
 
 //1.
 function num(number1, number2){
@@ -41,11 +41,14 @@ function num(number1, number2){
     return soma
 }
 const nova = num(6,3)
-console.log(nova)
+console.log(nova)*/
 
 //2.
-function sem([]){
-    const dividir = [] / 2
-    return dividir[2,6]
+let array = [2,4,6,8]
+function divisao(array2){
+    let novoArray = []
+    novoArray.push(array2[0]/2)
+    novoArray.push(array2[1]/2)
+    return novoArray
 }
-console.log(sem)
+console.log(divisao(array))
