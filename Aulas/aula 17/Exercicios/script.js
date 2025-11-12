@@ -29,3 +29,4 @@ function determinaMonstro(temPeleGelada, transformaComLuaCheia, brilhaNoSol, tem
 }
 const novoTipo = determinaMonstro(false,true,false,true)
 console.log(novoTipo)
+suspensão
