@@ -1,4 +1,4 @@
-//EXERCICIO 1:
+/*//EXERCICIO 1:
 const filme ={
     nome:"Sr misterio",
     anoDeLancamento:"1960",
@@ -19,33 +19,61 @@ const pessoa = {
 console.log(`O nome da pessoa é: ${pessoa.nome},ela tem ${pessoa["idade"]} anos e gosta muito de ${pessoa["generoMusicalPreferido"]}`)
 
 //EXERCICIO 3:
-const novoFilme = {
-    ...filme
-    personagens: ["mr.misterio","comandante","aleatorio"]
-}
 
-//EXERCICIO 4:
-function novoObjeto(objeto){
+//EXERCICIO 4*/
     
-}
 //EXERCICIO 5-NARUTO:
-const personagens = [
-    const naruto ={
+let personagens = [
+    {
         nome:"naruto",
         idade:16,
         estilo:"vento",
         jutsos:["rasenshuriken","kagebulshinnojutso","rasengan"]
     },
-    const sasuke ={
+    {
         nome:"sasuke",
         idade:16,
         estilo:"relampago",
         jutsos:["amaterasu,","chidori","susanoo"]
     },
-    const sakura ={
+    {
         nome:"sakura",
         idade:16,
         estilo:"vento",
         jutsos:["saionara","superchute","supercabecada"]
     }
+    //2
 ]
+function adiciPerso(perso){
+    personagens.push(perso)
+    console.log(`Foi adicionado: ${perso.nome}`)
+} 
+ const novoPersonagem={
+    
+        nome:"Gaara",
+        idade:"16",
+        classe:"kazekage",
+        poderes:"areia"}
+//3
+function buscarPersonagem(nomeBuscado){
+    function personagem(personagens){
+        return perso.nome.toLowerCase()===nomeBuscado.toLowerCase()
+    }
+    const personagemEncontrado
+}
+
+
+
+
+
+function buscarPersonagem(nome){
+    nome.find(personagens)
+    if(nome){
+        console.log("ta certo")}
+        else{
+            console.log("Houve um erro")
+        }
+        return nome
+    
+}
+
