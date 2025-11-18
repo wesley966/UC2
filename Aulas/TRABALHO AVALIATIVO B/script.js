@@ -1,11 +1,8 @@
-
-const personagemExcluido = prompt("Qual o personagem a ser excluido?")
-
 function escolherPersonagem(){
     const personagem = prompt("Qual seu personagem?")
-    const movimento = prompt("Qual o movimento?")
-if(personagem==="Frodo"){
-const Frodo={
+    const movimento = prompt("Qual o movimento?)
+const personagems = [
+    const frodo ={
     nome: "Frodo",
     classe: "Hobit",
     nivel: 10,
@@ -13,7 +10,15 @@ const Frodo={
     habilidades:["ponto fraco inimigo","soco"],
     historicoDeAcoes:[]
 }
-}
+    const Legolas={
+        nome:"Legolas",
+        classe:"Elfo",
+        nivel:20,
+        pontosDeVida:20,
+        habilidades:["flecha","super flecha"],
+        historicoDeAcoes:[]
+    }
+]
 
 if(movimento==="atacar"){
 console.log(!pontosDeVida-10)
@@ -28,16 +33,6 @@ else{
     console.log("nao identificado")
 }
 }
-if(personagem==="legolas"){
-const Legolas={
-    nome:"Legolas",
-    classe:"Elfo",
-    nivel:20,
-    pontosDeVida:20,
-    habilidades:["flecha","super flecha"],
-    historicoDeAcoes:[]
-}
-
     if(movimento==="atacar"){
     console.log(!pontosDeVida-10)
     }
@@ -51,8 +46,6 @@ const Legolas={
         console.log("nao identificado")
     }
 
-}
-return frodo,legolas
 }
 console.log(frodo)
 console.log(legola)
