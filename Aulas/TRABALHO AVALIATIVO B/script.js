@@ -1,23 +1,36 @@
+
 function escolherPersonagem(){
-    const personagem = prompt("Qual seu personagem?")
-    const movimento = prompt("Qual o movimento?)
-const personagems = [
-    const frodo ={
-    nome: "Frodo",
+    let personagem = prompt("Qual seu personagem?")
+    let personagems = [
+
+    {nome: "Frodo",
     classe: "Hobit",
     nivel: 10,
     pontosDeVida: 10,
     habilidades:["ponto fraco inimigo","soco"],
-    historicoDeAcoes:[]
-}
-    const Legolas={
+    historicoDeAcoes:[],
+    acoes:["atacar","defender","especial"]},
+
+    {
         nome:"Legolas",
         classe:"Elfo",
         nivel:20,
         pontosDeVida:20,
         habilidades:["flecha","super flecha"],
-        historicoDeAcoes:[]
+        historicoDeAcoes:[],
+
+        atacar: function atacar(){
+            connsole.log("atacou")
+        },
+        defender: function defender(){
+            console.log("defendeu")},
+
+            especial: function especial(){
+                console.log("especial usado")
+            }
+        }
     }
+
 ]
 
 if(movimento==="atacar"){
@@ -52,12 +65,35 @@ console.log(legola)
 
 function deletar(){
     const personagemExcluido = prompt("Qual o personagem a ser excluido?")
-    if(personagemExcluido==="frodo")
-    console.log(frodo.)
+    personagens.pop(personagemExcluido)||
+    //personagem.splice(0,1)
+
 }
 
 function buscarPersonagem(){
     const personagemBuscado = prompt("Qual personagem disponivel voce quer pesquisar?")
-    if(personagemBuscado==="Frodo")
+    personagem.find(personagemBuscado)
 }
 
+function listarPersonagens(){
+    for(persona of personagens)
+    console.log(personagens)
+}
+listarPersonagens()
+
+function verificarStatus(personagem){
+console.log(personagem.nome)
+console.log(personagem.hp)
+console.log(personagem.nivel)
+}
+verificarStatus(personagem[0])
+
+function cadastroPersonagens(nome,hp,nivel,habilidades,...){
+let personagens = ("nome:"nome,"hp:"hp,"nivel"nivel,"habilidades:"habilidades)
+personagens.push(personagens)
+console.log("cadastrou o personagem",nome)
+nome=fff
+hp=fff
+nivel=fff
+habilidades=fff
+}

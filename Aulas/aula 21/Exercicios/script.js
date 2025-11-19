@@ -1,4 +1,4 @@
-//1.Matriz do jogo da velha
+/*//1.Matriz do jogo da velha
 //a)
 let matriz1 = [
     [0,0,0],
@@ -21,15 +21,15 @@ let matriz2 = [
 //b)
 function calcularElementos(){
     soma = 0
-    for(let i=0;i<matriz2.length;i++){
-        for(let j=0;j<matriz2[i].length;j++){
-            soma +=matriz2[i][j]
+    for(let linha=0;  linha<matriz2.length;  linha++){
+        for(let coluna=0;  coluna<matriz2[i].length;  coluna++){
+            soma +=matriz2[linha][coluna]
         }
     }
     console.log("Soma do elementos:",soma);
 }
 calcularElementos()
-
+*/
 //3 Jogo de Batalha Naval
 //a)
 let matriz3 = [
@@ -74,16 +74,17 @@ navios(matriz3)
 
 //c)
 function jogabilidade(){
-    const posicao = prompt("Qual a posicao voce ira escolher?")
+    matriz3=0
+    quantidadeDeNavios=20
+   for(i=0;matriz3<quantidadeDeNavios;i++){
+    let posicao = prompt("Qual a posicao voce ira escolher?")
 
-    for(posicao=0;posicao=   ;posicao++){
-    const posicao = prompt("Qual a posicao voce ira escolher?")}
-    }
     if(posicao===0){
         console.log("AGUA")}
         else if(posicao===1){
-            console.log("NAVIO")}
-            else if()
-        }
+            console.log("NAVIO")
+        quantidadeDeNavios-=1
     }
 }
+}       
+jogabilidade()
